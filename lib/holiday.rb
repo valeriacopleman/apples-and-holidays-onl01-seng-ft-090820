@@ -67,10 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  counter= 0 
-  loop do
-    
-  break  
+ holiday_hash.each { |key, value| key.capitalize }  
   
   end
 end
